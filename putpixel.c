@@ -1,7 +1,7 @@
 #include <stdio.h> //header file
 #include <conio.h> //header file
 #include <graphics.h> ///header file for graphics mode
-int main()
+void main()
   { 
   int gd = DETECT,gm;  //detecting the graphics.
   initgraph(&gd,&gm,"C:\\BG\\TEMP"); //initialzing the graphics
